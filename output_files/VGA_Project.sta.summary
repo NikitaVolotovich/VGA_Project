@@ -3,147 +3,147 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1100mV 85C Model Setup 'SEC_CLK~reg0'
-Slack : -43.485
-TNS   : -172.765
+Slack : -44.215
+TNS   : -174.559
 
 Type  : Slow 1100mV 85C Model Setup 'VGA_CLK~reg0'
-Slack : -29.728
-TNS   : -304.984
+Slack : -29.697
+TNS   : -420.322
 
 Type  : Slow 1100mV 85C Model Setup 'clk'
-Slack : -3.663
-TNS   : -3.663
+Slack : -4.219
+TNS   : -4.219
 
 Type  : Slow 1100mV 85C Model Hold 'VGA_CLK~reg0'
-Slack : 0.210
+Slack : 0.283
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'SEC_CLK~reg0'
-Slack : 0.654
+Slack : 0.639
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Hold 'clk'
-Slack : 1.808
+Slack : 2.150
 TNS   : 0.000
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'VGA_CLK~reg0'
 Slack : -2.174
-TNS   : -76.575
+TNS   : -197.799
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
-Slack : -0.793
-TNS   : -4.527
+Slack : -0.840
+TNS   : -4.627
 
 Type  : Slow 1100mV 85C Model Minimum Pulse Width 'SEC_CLK~reg0'
 Slack : -0.394
-TNS   : -2.721
+TNS   : -2.895
 
 Type  : Slow 1100mV 0C Model Setup 'SEC_CLK~reg0'
-Slack : -44.819
-TNS   : -178.061
+Slack : -45.674
+TNS   : -180.422
 
 Type  : Slow 1100mV 0C Model Setup 'VGA_CLK~reg0'
-Slack : -30.248
-TNS   : -305.264
+Slack : -30.468
+TNS   : -414.057
 
 Type  : Slow 1100mV 0C Model Setup 'clk'
-Slack : -3.554
-TNS   : -3.554
+Slack : -4.039
+TNS   : -4.039
 
 Type  : Slow 1100mV 0C Model Hold 'VGA_CLK~reg0'
-Slack : 0.295
+Slack : 0.336
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Hold 'SEC_CLK~reg0'
-Slack : 0.629
+Slack : 0.614
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Hold 'clk'
-Slack : 1.745
+Slack : 2.041
 TNS   : 0.000
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'VGA_CLK~reg0'
 Slack : -2.174
-TNS   : -74.995
+TNS   : -196.445
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
-Slack : -0.818
-TNS   : -4.833
+Slack : -0.829
+TNS   : -4.816
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'SEC_CLK~reg0'
 Slack : -0.394
-TNS   : -2.813
+TNS   : -2.890
 
 Type  : Fast 1100mV 85C Model Setup 'SEC_CLK~reg0'
-Slack : -24.704
-TNS   : -97.889
+Slack : -24.560
+TNS   : -96.854
 
 Type  : Fast 1100mV 85C Model Setup 'VGA_CLK~reg0'
-Slack : -16.647
-TNS   : -156.120
+Slack : -16.465
+TNS   : -216.968
 
 Type  : Fast 1100mV 85C Model Setup 'clk'
-Slack : -2.861
-TNS   : -2.861
+Slack : -3.149
+TNS   : -3.149
 
 Type  : Fast 1100mV 85C Model Hold 'VGA_CLK~reg0'
-Slack : -0.183
-TNS   : -0.183
+Slack : 0.021
+TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Hold 'SEC_CLK~reg0'
-Slack : 0.343
+Slack : 0.331
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Hold 'clk'
-Slack : 1.613
+Slack : 1.813
 TNS   : 0.000
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'VGA_CLK~reg0'
 Slack : -2.174
-TNS   : -31.622
+TNS   : -142.697
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
-Slack : -0.731
-TNS   : -1.646
+Slack : -0.733
+TNS   : -1.654
 
 Type  : Fast 1100mV 85C Model Minimum Pulse Width 'SEC_CLK~reg0'
-Slack : -0.104
-TNS   : -0.410
+Slack : -0.100
+TNS   : -0.332
 
 Type  : Fast 1100mV 0C Model Setup 'SEC_CLK~reg0'
-Slack : -23.219
-TNS   : -92.028
+Slack : -23.256
+TNS   : -91.729
 
 Type  : Fast 1100mV 0C Model Setup 'VGA_CLK~reg0'
-Slack : -15.683
-TNS   : -140.338
+Slack : -15.551
+TNS   : -191.653
 
 Type  : Fast 1100mV 0C Model Setup 'clk'
-Slack : -2.478
-TNS   : -2.478
+Slack : -2.702
+TNS   : -2.702
 
 Type  : Fast 1100mV 0C Model Hold 'VGA_CLK~reg0'
-Slack : -0.179
-TNS   : -0.179
+Slack : -0.004
+TNS   : -0.004
 
 Type  : Fast 1100mV 0C Model Hold 'SEC_CLK~reg0'
-Slack : 0.303
+Slack : 0.295
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Hold 'clk'
-Slack : 1.316
+Slack : 1.470
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'VGA_CLK~reg0'
 Slack : -2.174
-TNS   : -31.136
+TNS   : -140.138
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
-Slack : -0.711
-TNS   : -1.601
+Slack : -0.701
+TNS   : -1.587
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'SEC_CLK~reg0'
-Slack : -0.075
-TNS   : -0.294
+Slack : -0.049
+TNS   : -0.147
 
 ------------------------------------------------------------

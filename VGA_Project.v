@@ -16,6 +16,8 @@ module VGA_Project(
 	assign VGA_G = {8{pixel[2]}};
 	assign VGA_B = {8{pixel[0]}};
 	
+	parameter FILE = "rom2.txt";
+	
 
 	always @(posedge clk) begin
 		VGA_CLK <= ~VGA_CLK;
@@ -33,7 +35,7 @@ module VGA_Project(
 	wire [9:0] x_fwd = x + 1;
 	
 	
-	rom #(13, 3, "rom.txt") vrom(rom_addr, VGA_CLK, rom_q);
+	rom #(13, 3, FILE) vrom(rom_addr, VGA_CLK, rom_q);
 
 	vga_driver vga_driver(VGA_CLK, VGA_HS, VGA_VS, x, y);
 	
@@ -71,7 +73,7 @@ module VGA_Project(
 		end 
 		
 		if (mode == 2) begin
-			rom_addr = x_fwd[9:3] + y[9:3];
+			rom_addr = x_fwd[9:3] + y[9:3] * 80;
 			pixel <= ((x < 640) && (y < 480)) ? rom_q : 3'b0;
 		end 
 		
