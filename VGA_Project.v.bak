@@ -1,0 +1,8 @@
+module VGA_Project(
+	input clk,
+	output reg [1:0] LED
+);
+
+LED[0] <= 1'b1;
+
+endmodule

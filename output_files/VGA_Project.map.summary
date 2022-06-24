@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Fri Jun 24 14:09:26 2022
+Quartus Prime Version : 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+Revision Name : VGA_Project
+Top-level Entity Name : VGA_Project
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 77
+Total pins : 38
+Total virtual pins : 0
+Total block memory bits : 768
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0
